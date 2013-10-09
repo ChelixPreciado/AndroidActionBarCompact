@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto" >
+    
+    <item android:id="@+id/menu_item_share"
+        android:title="Share"
+        myapp:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        myapp:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_share"/>
+
+</menu>
